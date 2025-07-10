@@ -1,41 +1,41 @@
 # Custom-NLP-Preprocessing-Pipeline-for-Text-Analysis
 A complete Natural Language Processing (NLP) pipeline that cleans, tokenizes, normalizes, and analyzes text from two contrasting topics in the 20 Newsgroups dataset.
 
-# 🧹 NLP Text Cleaning Pipeline: sci.space vs comp.graphics
+# NLP Text Cleaning Pipeline: sci.space vs comp.graphics
 
 This project implements a custom text preprocessing pipeline to clean and analyze raw text data from the [20 Newsgroups](https://scikit-learn.org/0.19/datasets/twenty_newsgroups.html) dataset using two contrasting categories:
 
 - `sci.space`
 - `comp.graphics`
 
-## 🔍 Objective
+## Objective
 
 To evaluate how preprocessing transforms noisy, unstructured text into clean and meaningful input for analysis or machine learning — **even without training a model**.
 
 ---
 
-## 🧪 Preprocessing Pipeline
+## Preprocessing Pipeline
 
 The custom pipeline includes:
 
-1. ✅ **Regex Cleaning**  
+1. **Regex Cleaning**  
    Remove punctuation, numbers, and symbols using `re`.
 
-2. 🧠 **Tokenization**  
+2. **Tokenization**  
    Split documents into words using `nltk.word_tokenize()`.
 
-3. 🔡 **Lowercasing**  
+3. **Lowercasing**  
    Convert all tokens to lowercase.
 
-4. 🚫 **Stopword Removal**  
+4. **Stopword Removal**  
    Remove common English stopwords using NLTK.
 
-5. 🧬 **Lemmatization**  
+5. **Lemmatization**  
    Normalize words to their base form using `WordNetLemmatizer`.
 
 ---
 
-## 📊 Analysis
+## Analysis
 
 After cleaning and preprocessing, the project:
 
@@ -45,7 +45,7 @@ After cleaning and preprocessing, the project:
 
 ---
 
-## 📂 Folder Structure
+## Folder Structure
 
 ```bash
 📁 nlp-cleaning-pipeline/
@@ -62,6 +62,3 @@ nltk.download('punkt')
 nltk.download('stopwords')
 nltk.download('wordnet')
 nltk.download('omw-1.4')
-
-
-
