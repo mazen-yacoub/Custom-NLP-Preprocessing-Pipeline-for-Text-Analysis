@@ -48,10 +48,6 @@ After cleaning and preprocessing, the project:
 ## Folder Structure
 
 ```bash
-📁 nlp-cleaning-pipeline/
-│
-├── nlp_preprocessing_pipeline.ipynb   # Jupyter Notebook with full code & analysis
-├── README.md                          # This file
 
 ## install Requirements
 `pip install nltk scikit-learn pandas matplotlib seaborn`
