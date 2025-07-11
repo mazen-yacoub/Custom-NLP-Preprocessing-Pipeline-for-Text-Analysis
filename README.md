@@ -57,7 +57,7 @@ After cleaning and preprocessing, the project:
 
 ---
 
-## Folder Structure
+## Dependences
 
 ```bash
 
