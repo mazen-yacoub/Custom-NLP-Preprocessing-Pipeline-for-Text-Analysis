@@ -33,6 +33,17 @@ The custom pipeline includes:
 5. **Lemmatization**  
    Normalize words to their base form using `WordNetLemmatizer`.
 
+### also there are notebook for: Investigate How Preprocessing Steps Change the Vocabulary and Semantics
+**Description:**
+   This notebook explores the impact of common NLP preprocessing steps (tokenization, stopword removal, stemming)
+   on a text dataset. We analyze how each step affects vocabulary size, document length, and word frequency
+   using a subset (100 documents) from the "sci.space" category in the 20 Newsgroups dataset.
+** Versions **:
+- Version A: Raw text (no preprocessing)
+- Version B: Regex cleaning + tokenization
+- Version C: Version B + lowercasing + stopword removal
+- Version D: Version C + stemming
+
 ---
 
 ## Analysis
