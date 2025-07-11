@@ -39,7 +39,7 @@ The custom pipeline includes:
    on a text dataset. We analyze how each step affects vocabulary size, document length, and word frequency
    using a subset (100 documents) from the "sci.space" category in the 20 Newsgroups dataset.
 
-- ** Versions :**
+- **Versions :**
    - Version A: Raw text (no preprocessing)
    - Version B: Regex cleaning + tokenization
    - Version C: Version B + lowercasing + stopword removal
